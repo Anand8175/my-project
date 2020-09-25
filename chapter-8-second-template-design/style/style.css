@@ -1,0 +1,123 @@
+@charset "utf-8";
+#service-menu span{
+letter-spacing: 1px;
+}
+#service-menu{
+margin-bottom: 0 !important;
+}
+#pricing{
+overflow: hidden;
+}
+#clients{
+background-color: white;
+}
+#home{
+background-color:white;
+overflow: hidden;
+padding-bottom: 0;
+margin-bottom: 0 !important;
+}
+#home h2{
+font-family: 'Krona One', sans-serif;
+}
+.logo{
+border-radius: 50%;
+border:2px solid white;
+-webkit-box-shadow: 0px 0px 3px grey;
+-moz-box-shadow: 0px 0px 3px grey;
+-o-box-shadow: 0px 0px 3px grey;
+box-shadow: 0px 0px 3px grey;
+padding: 2px;
+}
+.dropdown-menu a{
+color: black;
+padding: 5px;
+text-decoration: none;
+}
+.dropdown-menu a:hover{
+color: red;
+}
+.top-nav{
+-o-box-shadow: 0px 0px 5px grey;
+-webkit-box-shadow: 0px 0px 5px grey;
+-moz-box-shadow: 0px 0px 5px grey;
+box-shadow: 0px 0px 5px grey;
+}
+.main-font{
+font-family: 'Krona One', sans-serif;
+}
+.service-icon{
+width:50px;
+height: 50px;
+background-color: white;
+border-radius: 50%;
+font-size:25px;
+padding-top: 12px;
+cursor: pointer;
+margin-bottom: 10px;
+-o-box-shadow: 0px 0px 5px grey;
+-webkit-box-shadow: 0px 0px 5px grey;
+-moz-box-shadow: 0px 0px 5px grey;
+box-shadow: 0px 0px 5px grey;
+}
+.top-menu .nav-link.active{
+background-color: white;
+border-bottom: 3px solid red;
+-o-box-shadow: 0px 0px 5px grey;
+-webkit-box-shadow: 0px 0px 5px grey;
+-moz-box-shadow: 0px 0px 5px grey;
+box-shadow: 0px 0px 5px grey;
+}
+.client-pic{
+width:100px;
+height: 100px;
+border-radius: 50%;
+margin-bottom: 10px;
+background-size: cover;
+}
+.client-pic img{
+width: 100px;
+height: 100px;
+border:1px solid #ccc;
+border-radius: 50%;
+-o-box-shadow: 0px 0px 5px grey;
+-webkit-box-shadow: 0px 0px 5px grey;
+-moz-box-shadow: 0px 0px 5px grey;
+box-shadow: 0px 0px 5px grey;
+}
+.client-icon{
+width: 30px;
+height: 30px;
+border:1px solid black;
+padding-top: 5px;
+}
+.client-icon:hover{
+background-color: black;
+color: white;
+}
+.carousel-indicators li{
+background-color: red;
+width: 30px;
+height:50px;
+box-sizing: border-box;
+border-radius: 50%;
+}
+.carousel-indicators{
+top: 250px;
+}
+.modal input:focus{
+box-shadow: none !important;
+}
+.custom-range::-webkit-slider-thumb{
+	background-color: red;
+}
+textarea:focus{
+	box-shadow: none !important;
+}
+.custom-control-input:checked~.custom-control-label::before{
+	background-color: red;
+	border-color: red;
+}
+.custom-control-input:checked~.custom-control-label::before{
+	box-shadow: none !important; 
+}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+@media(max-width:768px)
+{
+	.service-col{
+		margin-bottom: 10px;
+	}
+	.service-col p{
+		text-align: justify;
+		padding:20px;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+	.carousel-inner p{
+		text-align: justify;
+	}
+	.client-fa{
+		top: -180px;
+	}
+}
+
+@media(max-width:576px)
+{
+	#home p{
+		text-align: justify;
+	}
+	#home h2{
+		font-size:22px;
+	}
+}

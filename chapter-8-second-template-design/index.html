@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>bootstrap chapter-9 to 18 second template design</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script  src="script/wow.min.js"></script>
+		<script type="text/javascript" src="script/jquery.js"></script>
+		<script type="text/javascript" src="script/jquery-ui.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/responsive.css">
+		<link rel="stylesheet" type="text/css" href="style/jquery-ui.css">
+		<link href="https://fonts.googleapis.com/css?family=Squada+One|Krona+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style/animate.css">
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="250">
+		<nav class="navbar navbar-expand-md bg-light navbar-light top-nav sticky-top">
+			<a href="https://wapinstitute.com" class="navbar-brand">
+				<img src="images/logo.png" alt="logo" width="40" class="logo" />
+			wapdevelopers.com</a>
+			<i class="fa fa-bars navbar-toggler ml-auto" data-toggle="collapse" data-target="#slider" style="font-size:9px; color:blue; cursor:pointer;"></i>
+			<div class="collapse navbar-collapse" id="slider">
+				<ul class="navbar-nav top-menu">
+					<li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="#service-menu" class="nav-link">Services</a></li>
+					<li class="nav-item"><a href="#clients" class="nav-link">Clients</a></li>
+					<li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+					<li class="nav-item">
+					<a href="#contact" class="nav-link">
+					<sup><span class="badge badge-danger animated infinite pulse">NEW</span></sup>Contact us</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" data-toggle="modal" data-target="#account" class="nav-link">Account</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="https://facebook.com/wapinstitute" class="nav-link"><i class="fa fa-facebook"></i></a>
+				</li>
+				<li class="nav-item"><a href="https://facebook.com/wapinstitute" class="nav-link"><i class="fa fa-twitter"></i></a></li>
+				<li class="nav-item"><a href="https://facebook.com/wapinstitute" class="nav-link"><i class="fa fa-google"></i></a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- start top header add -->
+	<div class="jumbotron jumbotron-fluid" id="home">
+		<div class="container-fluid">
+			<div class="container text-center">
+				<h2 class="animated fadeIn">WAP MOBILE APP DEVELOPMENT</h2>
+				<p class="animated fadeIn slower">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				</p>
+				<img src="images/mobile.png" alt="mobile-pic" width="60%" class="animated slideInUp" />
+			</div>
+		</div>
+	</div>
+	<!-- end top header add and home menu coding -->
+	<!-- start services menu coding -->
+	<div class="jumbotron jumbotron-fluid bg-light text-center" id="service-menu">
+		<div class="container-fluid">
+			<h2 class="main-font">SERVICES</h2>
+			<div class="row">
+				<div class="col-md-4 service-col">
+					<i class="fa fa-code service-icon"></i>
+					<h4>Mobile App Development</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore
+					</p>
+				</div>
+				<div class="col-md-4 service-col">
+					<i class="fa fa-code service-icon"></i>
+					<h4>ios App Development</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore
+					</p>
+				</div>
+				<div class="col-md-4 service-col">
+					<i class="fa fa-code service-icon"></i>
+					<h4>Desktop App Development</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end services menu coding -->
+	<!-- start clients menu coding-->
+	<div class="jumbotron-fluid jumbotron bg-light mb-0" id="clients">
+		<div class="container-fluid">
+			<div id="myclient" class="carousel slide container" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myclient active" data-slider-to="0"></li>
+					<li data-target="#myclient active" data-slider-to="1"></li>
+					<li data-target="#myclient active" data-slider-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active text-center">
+						<div class="client-pic mx-auto">
+							<a href="#"><img src="images/client-one.jpg" alt="client-one" /></a>
+						</div>
+						<h3>ER SAURAV</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem<br class="d-none d-lg-block"> ipsum dolor sit amet, consectetur.
+						</p>
+						<a href="#"><i class="fa fa-facebook client-icon"></i></a>
+						<a href="#"><i class="fa fa-twitter client-icon"></i></a>
+						<a href="#"><i class="fa fa-google client-icon"></i></a>
+					</div>
+					<div class="carousel-item text-center">
+						<div class="client-pic mx-auto">
+							<img src="images/client-two.jpg" alt="client-two" />
+						</div>
+						<h3>ER ANDY</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem<br class="d-none d-lg-block"> ipsum dolor sit amet, consectetur.
+						</p>
+						<a href="#"><i class="fa fa-facebook client-icon"></i></a>
+						<a href="#"><i class="fa fa-twitter client-icon"></i></a>
+						<a href="#"><i class="fa fa-google client-icon"></i></a>
+					</div>
+					<div class="carousel-item text-center">
+						<div class="client-pic mx-auto">
+							<img src="images/client-three.jpg" alt="client-three" />
+						</div>
+						<h3>ER VARUN</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem<br class="d-none d-lg-block"> ipsum dolor sit amet, consectetur.
+						</p>
+						<a href="#"><i class="fa fa-facebook client-icon"></i></a>
+						<a href="#"><i class="fa fa-twitter client-icon"></i></a>
+						<a href="#"><i class="fa fa-google client-icon"></i></a>
+					</div>
+				</div>
+				<a role="button" class="carousel-control-prev client-fa" href="#myclient" data-slide="prev">
+					<i class="fa fa-chevron-left " style="color:black; font-size:22px; cursor:pointer;">
+					</i>
+				</a>
+				<a role="button" class="carousel-control-next client-fa" href="#myclient" data-slide="next">
+					<i class="fa fa-chevron-right" style="color:black; font-size:22px; cursor:pointer;"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- end clients menu coding-->
+	<!-- start pricing menu coding -->
+	<div class="jumbotron-fluid jumbotron bg-light mb-0" id="pricing">
+		<div class="container-fluid">
+			<h1 class="main-font text-center mb-4">PRICING</h1>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4 mb-4">
+						<div class="card wow slideInLeft">
+							<div class="card-header bg-dark text-light text-center">
+								<h5>BASIC PLAN</h5>
+							</div>
+							<div class="card-body text-center">
+								<h1>$10 /MONTH</h1>
+								<hr>
+								<span>STATIC PLAN</span><hr>
+								<span>LOAD TIME FASTER</span><hr>
+								<span>NO FUTURE UPDATE</span><hr>
+								<span>NO CUSTOMER SUPPORT</span><hr>
+								<span>PAID MAINTENANCE</span><hr>
+								<span>ANDROID PRO</span><hr>
+							</div>
+							<div class="card-footer bg-dark text-light text-center">
+								<button class="btn bg-light p-1"><a href="#" class="text-decoration-none text-success">More Info</a></button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="card wow slideInRight">
+							<div class="card-header bg-danger text-light text-center">
+								<h5>ADVANCED PLAN</h5>
+							</div>
+							<div class="card-body text-center">
+								<h1>$50 /MONTH</h1>
+								<hr>
+								<span>STATIC PLAN</span><hr>
+								<span>LOAD TIME FASTER</span><hr>
+								<span>NO FUTURE UPDATE</span><hr>
+								<span>NO CUSTOMER SUPPORT</span><hr>
+								<span>PAID MAINTENANCE</span><hr>
+								<span>ANDROID PRO</span><hr>
+							</div>
+							<div class="card-footer bg-danger text-center text-light">
+								<button class="btn bg-light p-1">
+								<a href="#" class="text-decoration-none text-dark">
+									More Info
+								</a>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="card wow slideInUp">
+							<div class="card-header bg-light bg-dark text-center text-light">
+								<h5>BUSINESS PLAN</h5>
+							</div>
+							<div class="card-body text-center">
+								<h1>$150 /MONTH</h1>
+								<hr>
+								<span>STATIC PLAN</span><hr>
+								<span>LOAD TIME FASTER</span><hr>
+								<span>NO FUTURE UPDATE</span><hr>
+								<span>NO CUSTOMER SUPPORT</span><hr>
+								<span>PAID MAINTENANCE</span><hr>
+								<span>ANDROID PRO</span><hr>
+							</div>
+							<div class="card-footer bg-dark text-center text-light">
+								<button class="btn bg-light p-1"><a href="#" class="text-decoration-none text-dark">More Info</a></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end pricing menu coding -->
+	<!-- start contact us menu coding -->
+	<div class="jumbotron jumbotron-fluid bg-warning mb-0" id="contact">
+		<div class="container-fluid">
+			<h1 class="main-font" align="center">CONTACT</h1>
+			<div class="row">
+				<div class="col-md-4 px-5"> <!-- px means left and right padding 5=48 pixels padding -->
+				<form>
+					<div class="form-group">
+						<label for="username">Your name :</label>
+						<input type="text" name="username" id="username" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="number">Phone number :</label>
+						<input type="number" name="mobile-number" id="number" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="email">Email :</label>
+						<input type="email" name="email" id="email" class="form-control">
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn bg-danger text-light">Send us :</button>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-4 px-5">
+				<h5 class="mb-0">Address :</h5>
+				<address>
+					JP NAGAR BANGLURU 518404
+				</address>
+				<address>
+					<h5 class="mb-0">Contact us :</h5>
+					9741025410 , 8741025105
+				</address>
+				<address>
+					<h5 class="mb-0">Website :</h5>
+					wapinstitute.com
+				</address>
+				<address>
+					<h5 class="mb-0">Email :</h5>
+					wap@gmail.com
+				</address>
+			</div>
+			<div class="col-md-4 text-center">
+				<h5 class="mb-2">Follow us</h5>
+				<i class="fa fa-facebook client-icon bg-success"></i>
+				<i class="fa fa-google client-icon bg-success"></i>
+				<i class="fa fa-twitter client-icon bg-success"></i>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- start modal coding -->
+<div class="modal fade" id="account">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<i class="fa fa-times-circle" style="font-size:22px; color:red; position:absolute; top:5px; right:5px; cursor:pointer; z-index:10" data-dismiss="modal"></i>
+			<div class="modal-body">
+				<ul class="nav nav-tabs">
+					<li class="nav-item"><a href="#login" class="nav-link active" data-toggle="tab">Login</a></li>
+					<li class="nav-item"><a href="#signup" class="nav-link" data-toggle="tab">Sign up</a></li>
+				</ul>
+				<!-- start tab content -->
+				<div class="tab-content pt-3" style="overflow:hidden;">
+					<div id="login" class="tab-pane active animated slideInDown">
+						<form>
+							<div class="form-group">
+								<label for="username">Username :</label>
+								<input type="text" name="username" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="password">Password :</label>
+								<input type="password" name="password" class="form-control">
+							</div>
+							<div class="custom-control custom-switch mb-2">
+								<input type="checkbox" class="custom-control-input" id="rem-check">
+								<label class="custom-control-label" for="rem-check">Remember me !</label>
+							</div>
+							<button type="submit" class="btn btn-primary float-right">Login</button>
+						</form>
+					</div>
+					<div id="signup" class="tab-pane">
+						<form>
+							<div class="row">
+								<div class="col-md-6 mb-2">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text bg-warning border border-warning">
+												<i class="fa fa-user" style="color:white"></i>
+											</span>
+										</div>
+										<input type="text" name="firstname" placeholder="Firstname" class="form-control border-left-0">
+									</div>
+								</div>
+								<div class="col-md-6 mb-2">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text bg-warning border border-warning">
+												<i class="fa fa-user" style="color:white;"></i>
+											</span>
+										</div>
+										<input type="text" name="lastname"  placeholder="Lastname" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-md-6">
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<span class="input-group-text bg-danger  border border-danger text-light">Gender</span>
+										</div>
+										<select class="form-control border-left-0 border-danger">
+											<option>Male :</option>
+											<option>Female :</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="input-group">
+										<input type="date" class="form-control border-right-0" placeholder="dd/mm/yy" id="custom-date">
+										<div class="input-group-append">
+											<span class="input-group-text bg-danger text-light border-danger">
+												Dob
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-md-12">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text bg-primary border border-primary text-light">Mobile no :</span>
+										</div>
+										<input type="number" name="first number" placeholder="1st number" class="form-control border-left-0">
+										<input type="number" name="second number" placeholder="2st number" class="form-control">
+									</div>
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-md-12">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text bg-primary border border-primary text-light">Email :</span>
+										</div>
+										<input type="email" name="email" placeholder="Email Id" class="form-control">
+									</div>
+								</div>
+							</div>
+							<ul class="list-group mb-3">
+								<li class="list-group-item bg-success text-light">Occupation</li>
+								<li class="list-group-item">
+									<div class="custom-control custom-radio">
+										<input type="radio" name="Occupation" id="student" class="custom-control-input">
+										<label for="student" class="custom-control-label">Student</label>
+									</div>
+								</li>
+								<li class="list-group-item">
+									<div class="custom-control custom-radio">
+										<input type="radio" name="Occupation" id="professional" class="custom-control-input">
+										<label for="professional" class="custom-control-label">Professional</label>
+									</div>
+								</li>
+							</ul>
+							<ul class="list-group list-group-horizontal mb-3">
+								<li class="list-group-item bg-success text-light">Income</li>
+								<li class="list-group-item w-100">
+									<input type="range" class="custom-range" min="0" max="100">
+								</li>
+							</ul>
+							<div class="custom-file mb-3">
+								<input type="file" accept="image/*" id="upload" class="custom-file-input">
+								<label for="upload" class="custom-file-label">Upload file</label>
+							</div>
+							<div class="input-group mb-3">
+								<div class="input-group-prepend">
+									<span class="input-group-text bg-danger text-light">Address</span>
+								</div>
+								<textarea name="address" class="form-control">
+								
+								</textarea>
+							</div>
+							<div class="custom-control custom-switch mb-3">
+								<input type="checkbox" name="accept" class="custom-control-input" id="accept">
+								<label for="accept" class="custom-control-label">I accept</label>
+							</div>
+							<button type="submit" class="btn btn-danger text-light float-right border-0 mb-3">Sign up</button>
+						</form>
+					</div>
+				</div>
+				<!-- end tab content -->
+			</div>
+			<div class="modal-footer bg-warning">
+				<p class="mx-auto">You don't have an account <a href="#">Creat now !</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end modal coding -->
+<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
+<!-- continew to chapter- 18 --->
+<!-- chapter 9 to 18 contain this coding -->
+<!-- chapter 17,18 not fully complete -->
