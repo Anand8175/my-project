@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>muzic player apk development</title>
+	<meta charset="utf-8">
+	<meta lang="en-US">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/framework.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="hide">
+<div id="main-div">
+<header id="header">
+	<h2 class="v">Video Player</h2>
+	<i class="fa fa-thumbs-up" id="fa-like" title="Like"></i>
+	<i class="fa fa-thumbs-down" id="fa-dislike" title="Dislike"></i>
+	<i class="fa fa-share" id="fa-share" title="Share"></i>
+</header>
+
+<section id="big-video">
+	<div id="video-div">
+		<video width="66.66%" height="365" id="video">
+			<source src="https://cdn.videvo.net/videvo_files/video/free/2012-09/small_watermarked/hd0456_preview.webm" id="lv-source"></source>
+		</video>
+	</div>
+	<div id="vlist-div"></div>
+</section>
+
+<footer id="foot">
+	<div id="icon-div-left">
+		<i class="fa fa-play" id="play-icon" title="Play"></i>
+		<i class="fa fa-stop-circle" id="stop-icon" title="Stop"></i>
+		<i class="fa fa-repeat" id="repeat-icon" title="Repeat"></i>
+	</div>
+
+	<div id="icon-div-right">
+		<i class="fa fa-volume-up" id="volume-icon" title="Volume"></i>
+		<i class="fa fa-desktop" id="dc-icon" title="Fullscreen"></i>
+		<i class="fa fa-download" id="download" title="Download"></i>
+	</div>
+
+	<div id="gear-div">
+		<i class="fa fa-gear" id="gear" title="Setting"></i>
+		<div id="setting-div">
+			<span class="speed-word">Speed:</span><h4 id="speed">1</h4><button id="reset">Reset</button>
+			<input type="range" name="range" min="0" max="10" step="0.1" id="speed-slider" value="1">
+			<ul>
+				<li><i class="fa fa-clone" id="miniplayer-icon"></i>&nbsp;Mini Player</li>
+				<li><input type="color" name="color" id="container-theme">&nbsp;Con theme</li>
+				<li><input type="color" name="color" id="icon-theme">&nbsp;<p class="one">Icon theme</p></li>
+				<li><input type="color" name="color" id="Text-theme">&nbsp;<p class="two">Text theme</p></li>
+				<li><input type="button" name="button" id="reset-theme" value="Reset Theme"></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="progress-bar">
+		<div id="buffer-progress"></div>
+		<div id="progress"></div>
+	</div>
+
+	<div id="volume-bar">
+		<i class="fa fa-volume-up home" title="Volume" id="volume-icon"></i>
+		<input type="range" name="range" min="0" max="1" id="volume-slider" step="0.1">
+	</div>
+</footer>
+</div>
+	<div id="miniplayer">
+		<h2 align="center">Video Player</h2>
+		<i class="fa fa-clone" id="close-icon"></i>
+		<video id="mini-video" width="320" height="210" controls="controls">
+			<source id="minivideo-source"></source>
+		</video>
+	</div>
+</div>
+<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
