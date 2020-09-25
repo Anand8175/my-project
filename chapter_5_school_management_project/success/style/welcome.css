@@ -1,0 +1,36 @@
+@charset "utf-8";
+body{
+	background-image: url(../images/school.jpg);
+	background-size: cover;
+}
+.dark{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.5);
+	background-size: cover;
+}
+.bg-white{
+	background-color: white;
+}
+.brd{
+	border:1px solid red;
+}
+#fee-menu{
+	position:absolute;
+	top:0;
+	right:0;
+	width: 130px;
+	cursor:pointer;
+}
+.upload-pic{
+	position: absolute;
+	border:1px solid red;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.text-white{
+	color: white;
+}

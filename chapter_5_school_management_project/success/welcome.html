@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>welcome home page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/welcome.css">
+	<link rel="stylesheet" type="text/css" href="style/animate.css">
+	<link rel="stylesheet" type="text/css" href="style/jquery-ui.css">
+	<script src="script/jquery.js"></script>
+	<script src="script/jquery-3.4.1.min.js"></script>
+	<script src="script/popper.min.js"></script>
+	<script src="script/bootstrap.js"></script>
+</head>
+<body>
+<div class="dark container-fluid">
+	<div class="row">
+		<div class="col-md-3 py-4 bg-white">
+			<center>
+				<div style="width:110px;height:100px; border:1px solid #ccc;
+				box-shadow:0px 0px 5px #ddd"></div>
+				<h4 class="mt-2 school-name"><!-- WAP SCHOOL --></h4>
+				<span class="tagline"><!-- AN INTERNATIONAL BRAND OF SOFTWARE ENGINEERING --></span>
+				<button class="btn btn-info mt-2">SCHOOL MANAGEMENT SYSTEM</button>
+			</center>
+			<h5 class="mt-3">Director signature</h5>
+			<div class="custom-file">
+			<form>
+				<input type="file" accept="image/*" class="custom-file-input" id="director">
+				<label class="custom-file-label" for="director">Upload</label>
+			</form>
+			</div>
+
+			<h5 class="mt-3">Principle signature</h5>
+			<div class="custom-file">
+			<form>
+				<input type="file" accept="image/*" class="custom-file-input" id="principle">
+				<label class="custom-file-label" for="principle">Upload</label>
+			</form>
+			</div>
+		</div>
+		<div class="col-md-9 py-4">
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<div class="bg-white set-fee mx-auto position-relative px-4 pb-2 pt-2 mb-3" style="width:95%">
+					<img src="images/check_fee.png" width="150" align="check fee" id="fee-menu" data-toggle="modal" data-target="#fee-modal" /> 
+					<h5 class="mb-3">SET FEE CLASSESS</h5>
+					<form>
+					<input type="text" name="class-name" class="form-control mb-3 class-name" placeholder="Enter class name ex : 7" >
+
+					<div class="add-field-area">
+					<div class="input-group mb-3">
+						<input type="text" name="course-name" class="form-control course-name" placeholder="Hostel fee">
+						<input type="text" name="course-fee" class="form-control course-fee" placeholder="500">
+
+						<div class="input-group-append">
+							<span class="input-group-text text-light bg-danger">Monthly</span>
+						</div>
+					</div>
+					</div>
+
+					<div class="btn-group">
+						<span class="btn btn-primary add-field-btn"><i class="fa fa-plus"></i> Add field</span>
+						<span class="btn btn-danger text-light set-fee-btn">Set fee now</span>
+					</div>
+					</form>
+				</div>
+				</div>
+
+				<div class="bg-white set-fee mx-auto px-4 pb-2 pt-2 mb-4">
+					<h5 class="mb-3 text-center">GET INVOICE</h5>
+					<form>
+						<input type="number" class="form-control admission-no mb-2" placeholder="Enter admission no">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text bg-warning text-light admission-no mb-2">Invoice date</span>
+							</div>
+							<form>
+								<input type="date" class="form-control invoice-date">
+							</form>
+						</div>
+						<div align="right">
+						<button class="btn btn-warning text-light">
+							Get invoice now
+						</button>
+						</div>
+					</form>
+				</div>
+
+
+				<div class="bg-white set-fee mx-auto px-4 pt-2">
+					<h5 class="mb-3 text-center bg-danger text-light">FIND STUDENTS</h5>
+					<form>
+						<input type="number" class="form-control mb-2 find-admission-no" placeholder="Enter admission no">
+						<div class="input-group mb-2">
+						</div>
+						<div align="right">
+						<button class="btn btn-warning text-light">
+						Find now
+						</button>
+						</div>
+					</form>
+				</div>
+
+
+				<div class="col-md-6">
+				<div class="bg-white mx-auto position-relative px-4 pb-2 pt-2" style="width:95%">
+					<h5 class="text-center">Take admission</h5>
+					<div class="media">
+						<div class="s-pic border position-relative" style="width:130px; height:100px; cursor:pointer;">
+							<img src="images/upload_pic.png" width="100%" height="100%" title="Upload pic" class="show-pic">
+							<input type="file" accept="image/*" class="upload-pic" name="">
+						</div>
+						<div class="media-content mb-1 w-100 pl-4">
+							<input type="text" name="s-name" placeholder="Student's name" class="form-control s-name mb-4">
+							<input type="text" name="f-name" placeholder="Father's name" class="form-control f-name mb-4">
+						</div>
+					</div>
+					<input type="text" name="m-name" class="form-control m-name mb-2" placeholder="Mother's name">
+
+					<div class="input-group mb-2">
+						<div class="input-group-prepend">
+							<span class="input-group-text">DOB</span>
+						</div>
+						<input type="date" name="dob" class="form-control dob">
+						<select class="custom-control gender border">
+							<option>Male</option>
+							<option>Female</option>
+						</select>
+						<div  class="input-group-append">
+							<span class="input-group-text">GENDER</span>
+						</div>
+					</div>
+
+
+					<div class="input-group mb-2">
+						<div class="input-group-prepend">
+							<span class="input-group-text">MOBILE NO</span>
+						</div>
+						<input type="number" name="mobile-one" class="form-control mobile-one" placeholder="Mobile no">
+						<input type="number" name="mobile-two" class="form-control mobile-two" placeholder="Mobile no">
+					</div>
+
+					<select class="class form-control mb-2">
+						<option>Choose class</option>
+					</select>
+
+					<div class="input-group mb-2">
+						<div class="input-group-prepend">
+							<span class="input-group-text">ADMITTED IN</span>
+							<select class="form-control admit-in">
+								<option>School</option>
+								<option>Hostel</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="input-group mb-2">
+						<div class="input-group-prepend">
+							<span class="input-group-text">address</span>
+							<textarea class="form-control address"></textarea>
+						</div>
+					</div>
+
+					<div class="alert alert-success mb-2 admit-notice d-none">
+					<!-- <b>Succcess</b> -->
+					</div>
+					<div align="right">
+					<button class="btn btn-danger admit-btn">Admit now</button>
+					</div>
+				</div>
+			</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<!-- start fee modal -->
+<div class="modal animated slideInDown faster" id="fee-modal">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header bg-warning mx-auto text-light">FEE STRUCTURE</div>
+			<div class="modal-body" id="show-fee"><!--
+					<ul class="nav nav-tabs">
+					<li class="nav-item">
+					<a href="#" class="nav-link active">Class - 1</a>
+					</li>
+					</ul>
+
+				<div class="tab-content">
+					<table class="table border-left border-right border-bottom text-center">
+						<tr>
+							<th class="border-0">Hostel fee</th>
+							<th class="border-0">Course fee</th>
+							<th class="border-0">Tution fee</th>
+							<th class="border-0">Sport fee</th>
+							<th class="border-0">Edit</th>
+							<th class="border-0">Delete</th>
+						</tr>
+						<tr>
+							<td class="border-0">500 monthly</td>
+							<td class="border-0">400 monthly</td>
+							<td class="border-0">300 monthly</td>
+							<td class="border-0">200 monthly</td>
+							<td class="border-0"><i class="fa fa-edit" style="font-size:20px; color:red; cursor:pointer;"></i></td>
+							<td class="border-0"><i class="fa fa-trash" style="font-size:20px; color:red; cursor:pointer;"></i></td>
+						</tr>
+					</table>
+				</div>
+			</div> -->
+		</div>
+		<div class="modal-footer mx-auto"> <!-- mx auto send element in center -->
+			<button class="btn bg-warning text-light">Print</button>
+		</div>
+	</div>
+</div>
+<!-- end fee modal -->
+
+<script src="script/welcome.js"></script>
+</body>
+</html>
